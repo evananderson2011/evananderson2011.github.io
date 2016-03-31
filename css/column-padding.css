@@ -1,5 +1,5 @@
 .row.row-grid [class*="col-"] + [class*="col-"] {
-    margin-top: 15px;
+    margin-bot: 15px;
 }
 
 @media (min-width: 1200px) {
