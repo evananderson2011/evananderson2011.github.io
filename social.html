@@ -53,7 +53,13 @@
           <li><a href="/contact">contact</a></li> 
           <li class="active"><a href="/social">social</a></li> 
           <li><a href="/gallery">gallery</a></li>
-          <li><a target="_blank" href="object_files/Evan_Anderson_Resume.pdf">resume</a></li>
+          <li><a id="Resume" target="_blank" href="object_files/Evan_Anderson_Resume.pdf">resume</a>
+                        <script>
+                          !function(){var link = document.getElementById('Resume');
+                                      analytics.trackLink(link, 'Opened Resume');
+                                     }();
+            </script>
+          </li>
         </ul>
       </div>
     </nav>
